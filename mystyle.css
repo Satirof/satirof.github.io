@@ -1,4 +1,4 @@
-.navy-text {
+    .navy-text {
         color: navy;
     }
     
@@ -62,7 +62,7 @@
         width: 180px;
         position: fixed;
         overflow: auto;
-        display: contents;
+        display: block;
         right: 0;
     }
     
