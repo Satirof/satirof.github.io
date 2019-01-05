@@ -1,0 +1,54 @@
+<!-- HTML File for lesson plans -->
+<!DOCTYPE HTML>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="icon" href="images/logo-small.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>ALT - Print: Contact</title>
+</head>
+<body>
+
+    <!--#Floating verticle contents bar-->
+    <nav>
+        <ul class="leftcontents">
+            <li class="leftcontentslist" style="background-color: lightgray"><img src=images/logo-large.png width="155px" height="155px"></li>
+            <li class="leftcontentslist"><a id="a01" href="index.html">Home</a></li>
+            <li class="leftcontentslist"><a id="a01" href="horizon1/home.html">New Horizon 1</a></li>
+            <li class="leftcontentslist"><a id="a01" href="horizon2/home.html">New Horizon 2</a></li>
+            <li class="leftcontentslist"><a id="a01" href="horizon3/home.html">New Horizon 3</a></li>
+            <li class="leftcontentslist activelist active"><a id="a01" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!--#Main body of page -->
+<div style="margin-left:200px; padding:1px 16px; margin-right:200px">
+    <h1 class="navy-text large-text"><center>Lesson Plans by L.T. Satirof</center></h1>
+    <h2 class="subhead-text">Contact Form</h2>
+    <form name="contact" method="post" action="send_form_email.php">
+
+        <label for="fname">First Name (optional)</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name (optional)</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:45px"></textarea>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+        <a href="send_form_email.php"><input type="submit" value="Submit"></a>
+    </form>
+</div>
+
+        
+<body>
+<br>
+<footer>
+    <p style="text-align: center">Copyright © <script type="text/javascript">
+var d = new Date()
+document.write(d.getFullYear())
+</script> L.T. Satirof</p>
