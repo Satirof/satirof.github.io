@@ -25,24 +25,38 @@
     <!--#Main body of page -->
 <div style="margin-left:200px; padding:1px 16px; margin-right:200px">
     <h1 class="navy-text large-text"><center>Lesson Plans by L.T. Satirof</center></h1>
+    <br><br>
     <h2 class="subhead-text">Contact Form</h2>
-    <form name="contact" method="post" action="send_form_email.php">
 
-        <label for="fname">First Name (optional)</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <div class="container">
+            <form method="post" action="https://formspree.io/satirof.web@gmail.com">
 
-        <label for="lname">Last Name (optional)</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="fname">First Name (optional)</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        <label for="subject">Subject</label>
-        <textarea id="message" name="message" placeholder="Write something.." style="height:45px"></textarea>
+            <label for="lname">Last Name (optional)</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+            <label for="subject">Subject (please select)</label>
+            <select id="subject" name="subject">
+                <option value="other">Other</option>
+                <option value="bug">Website bug/error</option>
+                <option value="mistake">Mistake in a file</option>
+                <option value="suggestion">Suggestion/Request</option>
+            </select>
 
-        <a href="send_form_email.php"><input type="submit" value="Submit"></a>
-    </form>
-</div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    
+    
+    
+        
+
 
         
 <body>
