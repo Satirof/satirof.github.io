@@ -1,0 +1,69 @@
+<!-- HTML File for lesson plans -->
+<!DOCTYPE HTML>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="icon" href="images/logo-small.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>ALT - Print: Contact</title>
+</head>
+<body>
+
+    <!--#Floating verticle contents bar-->
+    <nav>
+        <ul class="leftcontents">
+            <li class="leftcontentslist" style="background-color: lightgray"><img src=images/logo-large.png width="155px" height="155px"></li>
+        <li class="leftcontentslist"><a id="a01" href="../index.html">Home</a></li>
+        <li class="leftcontentslist activelist active"><a id="a01" href="contact.html">Contact</a></li>
+        <br>
+        </ul>
+    </nav>
+    <!--#Main body of page -->
+<div style="margin-left:200px; padding:1px 16px; margin-right:200px">
+    <h1 class="navy-text large-text"><center>Lesson Plans by L.T. Satirof</center></h1>
+    <br><br>
+    <h2 class="subhead-text">Contact Form</h2>
+
+        <div class="container">
+            <form method="post" action="https://formspree.io/f/xqkgrgnl">
+
+            <label for="name">Name (optional)</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+                
+            <label for="pref">Prefecture (optional)</label>
+            <input type="text" id="pref" name="prefecture" placeholder="Prefecture you work in..">
+                
+            <label for="email">Email (optional)</label>
+            <input type="text" id="email" name="email" placeholder="Contact email..">
+
+            <label for="subject">Subject (please select)</label>
+            <select id="subject" name="subject">
+                <option value="bug">Website bug/error</option>
+                <option value="mistake">Mistake in a file</option>
+                <option value="suggestion">Suggestion/Request</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    
+    
+    
+        
+
+
+        
+<body>
+<br>
+<footer>
+    <p style="text-align: center">Copyright © <script type="text/javascript">
+var d = new Date()
+document.write(d.getFullYear())
+</script> L.T. Satirof</p>
