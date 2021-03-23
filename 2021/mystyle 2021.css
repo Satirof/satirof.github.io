@@ -1,0 +1,208 @@
+    .navy-text {
+        color: navy;
+    }
+    
+    body {
+        background-color: darkslategray;
+        font-family: sans-serif;
+    }
+    
+    .large-text {
+        font-size: 40px;
+    }
+
+    .small-text {
+        font-size: 16px;
+    }
+    
+    .red-text {
+        color: darkred;
+    }
+    
+    .headbox {
+        height: 158px;
+        margin-top: -30px; 
+        padding:20px 30px 20px 30px; 
+        background-color: #cecece; 
+    }
+
+    .subhead-text {
+        padding-left: 180px;
+        padding-right: 180px;
+        font-size: 26px;
+        font-weight: normal;
+        text-align: center;
+    }
+    
+    .listhead-text {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .centerbox {
+        margin-left:172px; 
+        margin-right:172px; 
+        padding:15px 15px 15px 15px; 
+        background-color: #c7dcc9; 
+        border: solid black 1px;
+    }
+
+    .filebox {
+        border: 1px solid darkgrey; 
+        padding: 10px; 
+        border-radius: 15px; 
+        background-color: #e8e8e8;
+    }
+        
+    li {font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .leftcontents {
+        list-style-type: none;
+        margin: 0;
+        padding: 0px 0px 10px 0px;
+        width: 180px;
+        height: 100%;
+        position: fixed;
+        overflow: auto;
+        background-color: darkslategray;
+        color: white;
+        left: 0;
+        top: 0;
+    }
+   
+    .rightcontentstop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #cecece;
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 1px solid black;
+        height: 160px;
+        
+    }
+
+    .rightcontents {
+        list-style-type: none;
+        margin: 0;
+        padding: 0px 0px 10px 0px;
+        width: 180px;
+        height: 100%;
+        position: fixed;
+        overflow: auto;
+        display: block;
+        right: 0;
+        top: 0;
+    }
+
+    .contentslist {
+        background-color: darkslategray;
+        padding: 8px 8px;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    
+    .contentslist:hover {
+        background-color: dimgray;
+    }
+    
+    
+    .activelist.active {
+        background-color: #c7dcc9;
+    }
+    
+    #a01 {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    #a02 {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+
+    a:visited{
+        color:blue;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin: 10px 0px 5px 0px;
+    }
+
+    h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #p-head {
+        font-weight: normal;
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #p-info {
+        font-weight: normal;
+        color: black;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #p-s-head {
+        font-weight: normal;
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #a-pdf {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: greenyellow;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: forestgreen;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
