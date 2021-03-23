@@ -4,6 +4,7 @@
     
     body {
         background-color: whitesmoke;
+        font-family: sans-serif;
     }
     
     .large-text {
@@ -47,7 +48,7 @@
         color: black;
         text-align: center;
         border-bottom: 1px solid black;
-        border-radius: 40px 5px 40px 5px;
+        border-radius: 15px 15px 15px 15px;
     }
     
     .leftcontentslist:hover {
@@ -74,7 +75,7 @@
         color: black;
         text-align: center;
         border-bottom: 1px solid black;
-        border-radius: 5px 40px 5px 40px;
+        border-radius: 15px 15px 15px 15px;
     }
     
     .rightjumplist:hover {
