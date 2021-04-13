@@ -18,6 +18,14 @@
     .red-text {
         color: darkred;
     }
+
+    .instructionshead {
+        font-size: 20px;
+    }
+
+    .instructions {
+        font-size: 17px;
+    }
     
     .headbox {
         height: 158px;
@@ -29,7 +37,7 @@
     .subhead-text {
         padding-left: 180px;
         padding-right: 180px;
-        font-size: 30px;
+        font-size: 26px;
         font-weight: normal;
         text-align: center;
     }
