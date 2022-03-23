@@ -1,0 +1,295 @@
+    .navy-text {
+        color: navy;
+    }
+    
+
+    body {
+        background-color: darkslategray;
+        font-family: sans-serif;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .large-text {
+        font-size: 40px;
+    }
+
+    .small-text {
+        font-size: 16px;
+    }
+    
+    .red-text {
+        color: darkred;
+    }
+
+    .instructionshead {
+        font-size: 20px;
+    }
+
+    .instructions {
+        font-size: 17px;
+    }
+    
+    .headbox {
+        height: 150px;
+        padding:0px 0px 0px 0px; 
+        background-color: #cecece; 
+        text-align: right;
+    }
+
+    .subhead-text {
+        font-size: 30px;
+        font-weight: normal;
+        text-align: center;
+        color: #f2f2f2;
+    }
+    
+    .listhead-text {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .centerbox {
+        margin-left:172px; 
+        padding:5px 15px 15px 15px; 
+        background-color: darkolivegreen; 
+        border: solid black 1px;    
+    }
+
+        
+    li {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .leftcontents {
+        list-style-type: none;
+        margin: 0;
+        padding: 35px 0px 10px 0px;
+        width: 180px;
+        height: 100%;
+        position: fixed;
+        overflow: auto;
+        background-color: darkslategray;
+        color: white;
+        left: 0;
+        top: 0;
+    }
+
+    .returnhome {
+       list-style-type: none;
+        margin: 0;
+        padding: 0px;
+        width: 180px;
+        float: right;
+        background-color: darkslategray;
+        color: white;
+        
+    }
+    
+    .returnhometext {
+        background-color: darkslategray;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        line-height: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .rightjumplist:hover {
+        background-color: lightgray;
+        color: black;
+    }
+   
+    .contentslist {
+        background-color: darkslategray;
+        padding: 5px 5px;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    
+    .contentslist:hover {
+        background-color: dimgray;
+    }
+    
+    
+    .contentslist.active {
+        text-decoration:none;
+	    color: black;
+        background-color: darkolivegreen;
+        border-right: none;
+    }
+    
+    #a01 {
+        text-decoration: none;
+        display: block;
+    }
+
+    #a02 {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+
+    a { 
+        color: antiquewhite;
+        }
+
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin-left: 170px;
+        text-align: center;
+    }
+
+    h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #p-head {
+        font-weight: normal;
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #p-info {
+        font-weight: normal;
+        color: black;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #p-s-head {
+        font-weight: normal;
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #a-pdf {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+    .filebox {
+        border: 1px solid darkgrey; 
+        padding: 10px; 
+        border-radius: 15px; 
+        background-color: #e8e8e8;
+    }
+
+
+.column {
+  float:left;
+  padding: 0px;
+  background-color: #c7dcc9;
+}
+
+#holiday-whenandwhere {
+  width: 20%;
+    border-bottom: solid darkgrey 1px;
+    border-top: solid darkgrey 1px;
+    border-left: solid darkgrey 1px;
+    
+}
+
+
+
+#holiday-information {
+  width: 40%;
+    border-bottom: solid darkgrey 1px;
+    border-top: solid darkgrey 1px;
+    border-right: solid gray 1px;
+    border-left: solid gray 1px;
+        position: relative;
+}
+
+#holiday-picture {
+    width: 20%;
+    border-bottom: solid darkgrey 1px;
+    border-top: solid darkgrey 1px;
+    border-right: solid darkgrey 1px;
+    padding: 10px;
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+/* If the browser window is smaller than 600px, make the columns stack on top of each other */
+
+
+.holiday-heading {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+}
+.holiday-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+}
+
+.holiday-date {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.holiday {
+    padding: 10px;
+}
+    
+    #ul-whenandwhere {
+        padding-left: 50px;
+}
+    #li-whenandwhere {
+        font-size: 20px;
+}
+
+.information {
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px 20px 5px 20px;
+}
+
+.information-link {
+    position:absolute;
+    bottom:0;
+    right:0;
+    color: black;
+}
+
+.holiday-pictures {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+.helper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
